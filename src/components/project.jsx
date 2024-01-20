@@ -24,9 +24,6 @@ export const Project = () => {
                     {items.map((i) => (
                         <ProjectItem key={i.label} data={i} />
                     ))}
-                    <button className="hover:bg-blue-500 hover:border-transparent transition-all border-2 border-white py-2 px-4 text-sm text-white rounded-full flex items-center gap-4 bottom-8 left-8">
-                        <p>View all projects</p>
-                    </button>
                 </div>
             </div>
         </div>
